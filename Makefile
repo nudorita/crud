@@ -1,7 +1,7 @@
 COMPOSE=sudo docker-compose -f docker/docker-compose.yml
 
 start:
-	$(COMPOSE) build
+	$(COMPOSE) builda
 	$(COMPOSE) up -d --remove-orphans
 
 stop:
